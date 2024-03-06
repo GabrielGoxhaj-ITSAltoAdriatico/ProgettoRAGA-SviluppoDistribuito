@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alloggi</title>
     <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
       body > p,
       h1 {
         text-align: center;
@@ -48,10 +51,19 @@
         margin-top: 10px;
       }
       button {
+        border: 1px solid limegreen;
+        color: limegreen;
+        font-weight: 600;
+        background-color: transparent;
         cursor: pointer;
-        background-color: limegreen;
         width: 50px;
         margin: 0 0 10px 10px;
+        border-bottom-right-radius: 4px;
+
+      }
+      button:hover{
+        background-color: limegreen;
+        color: black;
       }
     </style>
   </head>
@@ -74,7 +86,7 @@
           non distinctio.
         </p>
 
-        <button>INFO</button>
+        <button>Info</button>
       </div>
       <hr />
       <h2>Alloggio 2</h2>
@@ -86,7 +98,7 @@
           non distinctio.
         </p>
 
-        <button>INFO</button>
+        <button>Info</button>
       </div>
       <hr />
 
@@ -99,7 +111,7 @@
           non distinctio.
         </p>
 
-        <button>INFO</button>
+        <button>Info</button>
       </div>
       <hr />
     </div>
