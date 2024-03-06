@@ -1,0 +1,13 @@
+header {
+    height: 65px;
+    width: 20%; 
+    background-color:rgba(61, 120, 197, 0.59);
+}
+
+h2 {
+    text-align: left;   
+}
+
+body {
+    background-color: rgb(37, 171, 202);
+}
