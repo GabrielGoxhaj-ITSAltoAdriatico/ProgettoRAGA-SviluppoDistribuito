@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alloggi</title>
+    <style>
+      body > p,
+      h1 {
+        text-align: center;
+      }
+      .main-container {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* flex-direction: column; */
+      }
+      .main-container > div {
+        border: 1px solid limegreen;
+        width: 500px;
+        /* height: 500px; */
+        margin-top: 10px;
+        border-bottom-right-radius: 12px;
+      }
+      .box > p {
+        padding: 10px 10px 0 10px;
+      }
+      .image-container {
+        background-position: center;
+        background-size: cover;
+        /* background-color: green; */
+        height: 400px;
+      }
 
-</body>
+      .alloggio1 {
+        background-image: url(/media/alloggio1.jpg);
+      }
+      .alloggio2 {
+        background-image: url(/media/alloggio2.jpg);
+      }
+      .alloggio3 {
+        background-image: url(/media/alloggio3.jpg);
+      }
+
+      hr {
+        border-top: 1px solid limegreen;
+        width: 70px;
+        margin-left: 0;
+        margin-top: 10px;
+      }
+      button {
+        cursor: pointer;
+        background-color: limegreen;
+        width: 50px;
+        margin: 0 0 10px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I nostri Alloggi</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam
+      consectetur ipsum quibusdam corrupti doloribus ipsam temporibus. Officia
+      molestiae necessitatibus itaque recusandae perspiciatis, ducimus magni
+      vitae, earum cumque alias consequuntur.
+    </p>
+
+    <div class="main-container">
+      <h2>Alloggio 1</h2>
+      <div class="box">
+        <div class="image-container alloggio1"></div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+          velit laudantium, quidem architecto rem doloremque quisquam possimus
+          non distinctio.
+        </p>
+
+        <button>INFO</button>
+      </div>
+      <hr />
+      <h2>Alloggio 2</h2>
+      <div class="box">
+        <div class="image-container alloggio2"></div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+          velit laudantium, quidem architecto rem doloremque quisquam possimus
+          non distinctio.
+        </p>
+
+        <button>INFO</button>
+      </div>
+      <hr />
+
+      <h2>Alloggio 3</h2>
+      <div class="box">
+        <div class="image-container alloggio3"></div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+          velit laudantium, quidem architecto rem doloremque quisquam possimus
+          non distinctio.
+        </p>
+
+        <button>INFO</button>
+      </div>
+      <hr />
+    </div>
+  </body>
 </html>
