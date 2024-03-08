@@ -38,7 +38,6 @@ th, td{
     
 }
 /*attrazioni*/
-
 .topMenu {
     display: flex;
     flex-direction: row;
@@ -56,8 +55,7 @@ table {
 footer {
     background-color: rgb(120, 120, 120);
     margin: 0;
-    padding: 0;
-
+    padding: 0;}
 
 header {
     height: 65px;
