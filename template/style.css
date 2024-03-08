@@ -1,3 +1,4 @@
+
 .topMenu {
     display: flex;
     flex-direction: row;
@@ -16,4 +17,19 @@ footer {
     background-color: rgb(120, 120, 120);
     margin: 0;
     padding: 0;
+
+
+header {
+    height: 65px;
+    width: 20%; 
+    background-color:rgba(61, 120, 197, 0.59);
+}
+
+h2 {
+    text-align: left;   
+}
+
+body{
+  background-color: antiquewhite;
+
 }
