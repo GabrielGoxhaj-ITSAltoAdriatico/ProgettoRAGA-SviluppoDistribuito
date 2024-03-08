@@ -1,17 +1,39 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
 .topMenu {
     display: flex;
     flex-direction: row;
     width: 100%;
     background-color:rgba(61, 120, 197, 0.59);
+    align-items: baseline;
 }
+
 .elencositi {
-    width: 1000px;
+    width: 1000px;   
 }
+
 .elencoSiti ul{
     display: flex;
     flex-direction: wrap;
-    justify-content: space-between;
+    list-style: none;
+}
 
+.elencoSiti li {
+    margin: 5%;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.elencoSiti a {
+    text-decoration: none;
+    color: rgb(0, 143, 7);
+}
+
+.elencoSiti a:hover {
+    color: rgb(41, 41, 41);
 }
 
 table {
@@ -24,11 +46,30 @@ table {
 }
 
 footer {
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(49, 49, 49);
     margin: 0;
-    padding: 0;}
-body{
-  background-color: antiquewhite;
+    padding: 0;
+    color: white;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+footer li {
+    margin: 0 auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+    color: rgb(205, 205, 205);
 }
 
 /*ristoranti e bar*/
