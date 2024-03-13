@@ -91,13 +91,13 @@ body {
   }
 
   .alloggio1 {
-    background-image: url(media/alloggio1.jpg);
+    background-image: url(/media/alloggio1.jpg);
   }
   .alloggio2 {
-    background-image: url(media/alloggio2.jpg);
+    background-image: url(/media/alloggio2.jpg);
   }
   .alloggio3 {
-    background-image: url(media/alloggio3.jpg);
+    background-image: url(/media/alloggio3.jpg);
   }
 
   hr {
